@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61A25231-0D6A-62A4-5095-28B6A3CAE5AD" name="VOLUNTARIO">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-04 23:59:13 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_voluntario" id="70496076-CAE6-564E-5179-9431E2F88E2A">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:16:07 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_voluntario" id="9181D41B-47FB-DC45-6392-A8341FBEA199">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:16:32 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_area_atuacao" id="E914A1C1-D104-9231-F71C-88C33AE5C55B">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:17:14 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_disponibilidade" id="53FB527F-DA5C-13CB-CE5C-B128E33A99DD">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:17:37 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_telefone_voluntario" id="FE37A55F-87D2-D573-1183-96F821DF959D">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:18:01 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_email_voluntario" id="F2A01D21-EA8A-5071-3E76-BFFBA4B72B55">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:18:18 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_contato_voluntario" id="1330F62A-A878-F7D6-9504-557FF497150D">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:32:48 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDA6B457-63B2-0C2E-11AE-2D96EDC3D110" name="VOLUNTARIO PK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:16:30 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70496076-CAE6-564E-5179-9431E2F88E2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

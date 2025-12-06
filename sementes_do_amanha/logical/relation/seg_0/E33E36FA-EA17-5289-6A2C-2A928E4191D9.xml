@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="E33E36FA-EA17-5289-6A2C-2A928E4191D9">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:13:06 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<engineerTo>
+<item key="D9548331-AA63-541D-ABAC-C2715AFE9DDA" value="true"/>
+</engineerTo>
+<sourcePk>EE633776-2410-A1BF-6DD8-F02912B4ED9B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37B2F7CD-3DE6-5167-7BCC-7B2E5F825941</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>305781E7-2A97-D350-6DEC-5404434EBA00</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

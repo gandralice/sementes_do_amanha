@@ -1,0 +1,49 @@
+--lista de crianças com seus responsaveis
+SELECT 
+    c.nm_crianca,
+    c.ic_sexo,
+    r.nm_responsavel
+FROM CRIANCA c
+JOIN RESPONSAVEL r
+    ON c.RESPONSAVEL_cd_responsavel = r.cd_responsavel;
+
+--atividade e o nome do voluntário responsavel
+SELECT 
+    a.nm_atividade,
+    a.dt_atividade,
+    v.nm_voluntario
+FROM ATIVIDADE a
+JOIN VOLUNTARIO v
+    ON a.VOLUNTARIO_cd_voluntario = v.cd_voluntario;
+
+--atendimentos realizados por criança
+SELECT 
+    c.nm_crianca,
+    a.ds_tipo_atendimento,
+    a.dt_atendimento
+FROM ATENDIMENTO a
+JOIN CRIANCA c
+    ON a.CRIANCA_cd_crianca = c.cd_crianca
+ORDER BY c.nm_crianca, a.dt_atendimento;
+
+--frequência de crianças nas atividades
+SELECT 
+    a.nm_atividade,
+    c.nm_crianca,
+    ca.ic_presenca
+FROM CRIANCA_ATIVIDADE ca
+JOIN CRIANCA c
+    ON c.cd_crianca = ca.CRIANCA_cd_crianca
+JOIN ATIVIDADE a
+    ON a.cd_atividade = ca.ATIVIDADE_cd_atividade
+WHERE ca.ic_presenca = 'S';
+
+--crianças com mais de um atendimento
+SELECT 
+    c.nm_crianca,
+    COUNT(a.cd_atendimento) AS qt_atendimentos
+FROM CRIANCA c
+JOIN ATENDIMENTO a
+    ON a.CRIANCA_cd_crianca = c.cd_crianca
+GROUP BY c.nm_crianca
+HAVING COUNT(a.cd_atendimento) >= 2;

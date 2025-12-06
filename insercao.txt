@@ -1,0 +1,47 @@
+--responsavel
+INSERT INTO RESPONSAVEL VALUES (1, 'Maria Silva', 'Mãe', '11987654321', 'maria.silva@gmail.com', 'Rua das Flores, 120');
+INSERT INTO RESPONSAVEL VALUES (2, 'Carlos Santos', 'Pai', '11999887766', 'carlos.santos@hotmail.com', 'Av. Paulista, 900');
+INSERT INTO RESPONSAVEL VALUES (3, 'Ana Pereira', 'Tia', '11966778899', 'ana.pereira@gmail.com', 'Rua Verde, 55');
+INSERT INTO RESPONSAVEL VALUES (4, 'Juliana Costa', 'Avó', '11954566789', 'juliana.costa@gmail.com', 'Rua Bela Vista, 88');
+INSERT INTO RESPONSAVEL VALUES (5, 'Rafael Mendes', 'Responsável Legal', '11991234567', NULL, 'Rua Central, 101');
+
+--crianca
+INSERT INTO CRIANCA VALUES (1, 'Lucas Silva', DATE '2012-05-10', 'M', 'Escola Viva', '6º ano', 'Família estruturada', 1);
+INSERT INTO CRIANCA VALUES (2, 'Ana Santos', DATE '2013-09-21', 'F', 'Colégio Esperança', '5º ano', 'Pais separados', 2);
+INSERT INTO CRIANCA VALUES (3, 'Marina Pereira', DATE '2011-11-02', 'F', 'Escola Luz', '7º ano', 'Situação vulnerável', 3);
+INSERT INTO CRIANCA VALUES (4, 'João Costa', DATE '2014-02-18', 'M', 'Escola Viva', '4º ano', 'Assistência social', 4);
+INSERT INTO CRIANCA VALUES (5, 'Thiago Mendes', DATE '2012-07-30', 'M', 'Escola Esperança', '6º ano', 'Situação vulnerável', 5);
+
+--voluntario
+INSERT INTO VOLUNTARIO VALUES (1, 'Fernanda Reis', 'Psicologia', 'Segunda e Quarta', '11977778888', 'fernanda.reis@gmail.com', 'WhatsApp');
+INSERT INTO VOLUNTARIO VALUES (2, 'Paulo Almeida', 'Pedagogia', 'Terça e Quinta', '11966667777', 'paulo.almeida@gmail.com', 'WhatsApp');
+INSERT INTO VOLUNTARIO VALUES (3, 'Amanda Sousa', 'Educação Física', 'Sexta', '11955556666', 'amanda.sousa@gmail.com', NULL);
+INSERT INTO VOLUNTARIO VALUES (4, 'Roberto Lima', 'Artes', 'Sábado', '11944445555', NULL, 'Email');
+INSERT INTO VOLUNTARIO VALUES (5, 'Isabela Rocha', 'Psicologia', 'Segunda', '11933334444', 'isabela.rocha@gmail.com', NULL);
+
+--atividade
+
+INSERT INTO ATIVIDADE (cd_atividade, VOLUNTARIO_cd_voluntario, nm_atividade, dt_atividade, ds_atividade)
+VALUES (1, 1, 'Aula de pintura', DATE '2025-02-10', 'Atividade de expressão artística');
+INSERT INTO ATIVIDADE (cd_atividade, VOLUNTARIO_cd_voluntario, nm_atividade, dt_atividade, ds_atividade)
+VALUES (2, 2, 'Reforço escolar de matemática', DATE '2025-02-12', 'Apoio pedagógico individual');
+INSERT INTO ATIVIDADE (cd_atividade, VOLUNTARIO_cd_voluntario, nm_atividade, dt_atividade, ds_atividade)
+VALUES (3, 3, 'Jogos cooperativos', DATE '2025-02-15', 'Atividade física e integração');
+INSERT INTO ATIVIDADE (cd_atividade, VOLUNTARIO_cd_voluntario, nm_atividade, dt_atividade, ds_atividade)
+VALUES (4, 1, 'Dinâmica emocional', DATE '2025-02-20', 'Atividade psicológica em grupo');
+INSERT INTO ATIVIDADE (cd_atividade, VOLUNTARIO_cd_voluntario, nm_atividade, dt_atividade, ds_atividade)
+VALUES (5, 5, 'Atendimento psicológico', DATE '2025-02-22', 'Sessão individual');
+
+--criança atividade
+INSERT INTO CRIANCA_ATIVIDADE VALUES (1, 1, 'S');
+INSERT INTO CRIANCA_ATIVIDADE VALUES (1, 2, 'S');
+INSERT INTO CRIANCA_ATIVIDADE VALUES (2, 1, 'N');
+INSERT INTO CRIANCA_ATIVIDADE VALUES (3, 3, 'S');
+INSERT INTO CRIANCA_ATIVIDADE VALUES (4, 4, 'S');
+
+--atendimento
+INSERT INTO ATENDIMENTO VALUES (1, 'Psicológico', DATE '2025-02-05', 'Fernanda Reis', 'Primeira sessão', 1);
+INSERT INTO ATENDIMENTO VALUES (2, 'Pedagógico', DATE '2025-02-08', 'Paulo Almeida', 'Dificuldade em matemática', 2);
+INSERT INTO ATENDIMENTO VALUES (3, 'Social', DATE '2025-02-09', 'Isabela Rocha', 'Visita domiciliar', 3);
+INSERT INTO ATENDIMENTO VALUES (4, 'Psicológico', DATE '2025-02-11', 'Fernanda Reis', 'Sessão de acompanhamento', 1);
+INSERT INTO ATENDIMENTO VALUES (5, 'Psicológico', DATE '2025-02-18', 'Fernanda Reis', 'Sessão individual', 5);

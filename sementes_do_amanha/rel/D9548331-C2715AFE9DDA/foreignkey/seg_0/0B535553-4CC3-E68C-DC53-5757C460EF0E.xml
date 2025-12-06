@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B535553-4CC3-E68C-DC53-5757C460EF0E" containerWithKeyObject="A06E6542-F1D0-E4C5-3E09-3F331622BB14" localFKIndex="2C942206-007C-46F0-E4F1-8F99BEB51AE9" name="ATENDIMENTO_CRIANCA_FK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>EA58B436-0204-CE89-DA67-E53D7446B9F9</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<referredTableLongName>CRIANCA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E8CD8A2-93AA-5059-7DD4-DBFED167A005</referredTableID>
+<keyObject>4B0AFFE9-17EE-B0F1-033B-1788719DDAA0</keyObject>
+<referredKeyID>4B0AFFE9-17EE-B0F1-033B-1788719DDAA0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_crianca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

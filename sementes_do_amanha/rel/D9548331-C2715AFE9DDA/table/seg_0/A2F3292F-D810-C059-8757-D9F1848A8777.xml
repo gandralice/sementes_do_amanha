@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2F3292F-D810-C059-8757-D9F1848A8777" name="RESPONSAVEL">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>37B2F7CD-3DE6-5167-7BCC-7B2E5F825941</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_responsavel" id="A4083610-2358-F52C-C321-06B8007C3BA8">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>B75225E5-E672-D9C0-6A71-EF5F58FE40F2</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_responsavel" id="44645C26-6D65-E05C-83AF-D9A4BC735F6C">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>25B18FB8-60B3-47D5-B884-939A24B4F138</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_parentesco" id="DBF0DA4C-6CA6-9E9D-5BAB-476A44910130">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>D78B7BD5-7D39-BC4E-CDD0-0A5AD8AC2F65</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_telefone_responsavel" id="404FE961-1E62-6A88-DD7C-99D4A4D839CA">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>C0007C04-882F-8B6E-BC59-620CC11D014E</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_email_responsavel" id="69AC77F0-A3DB-4C80-0208-E5710DDAB812">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>2593A1AF-416A-7B80-B559-702346CA0A73</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco_responsavel" id="A9A4B49E-F53B-6CA4-CEA3-3D05695E4AA4">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>3C6688D8-8469-A26A-104A-BC840A80B89A</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D234A8D2-6175-EE91-8C42-197ED50FF520" name="RESPONSAVEL_PK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>EE633776-2410-A1BF-6DD8-F02912B4ED9B</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4083610-2358-F52C-C321-06B8007C3BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

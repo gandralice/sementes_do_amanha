@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25E473C3-1034-8D4B-2B0E-578956863633" name="ATIVIDADE">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>8FEB2590-F269-AF27-832F-BA0AEEB32ED2</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VOLUNTARIO_cd_voluntario" id="778C3571-B315-C4FA-3069-3B3088035E42">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>46570F6B-2816-F9ED-4B84-F0706FA00813</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0C927CA-4F1F-3749-DC7F-198FE5275BE3" referredColumn="C7B2C30C-CB88-1A38-D961-4903541673F7"/>
+</associations>
+</Column>
+<Column name="cd_atividade" id="5D7E9C9B-4145-9F00-F768-0C064FA15333">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>9DC0CF32-57D3-2CFB-F1EB-49B50813641C</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_atividade" id="FF9EC677-30FA-BA03-B1A3-A808D64112A6">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>B367F3F1-DDBE-8EDB-BF80-FC84C3E1B164</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_atividade" id="2D315822-3D1D-D29C-58A9-A41EA8A99206">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>B4ED2A08-B5CE-4B4D-A22E-1625F7CC02F0</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_atividade" id="2DE27D40-7757-983F-0548-0F164309D82A">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>E144DD64-0AE8-6887-8341-5DD004EF54C1</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E2E1919-45FE-FF70-8987-8647789F3685" name="ATIVIDADE_PK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>9565F935-ADA9-1BC8-275E-A061F57F6843</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D7E9C9B-4145-9F00-F768-0C064FA15333"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F839426-DD3C-A083-05CC-3D594D520C6E" name="ATIVIDADE_VOLUNTARIO_FK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>F73E4E9D-722A-A553-0EFF-FB3985AB7E5A</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="778C3571-B315-C4FA-3069-3B3088035E42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

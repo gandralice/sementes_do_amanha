@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27C55741-FFBA-AE2B-442E-CD0A54171EAC" name="CRIANCA_ATIVIDADE">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>7517CF9D-3EDC-2849-0030-D65257FEC3F4</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CRIANCA_cd_crianca" id="1757AFE8-0025-1402-A48C-E61305BF8BE0">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>98F05D0C-A6F3-125A-692D-565E5175EB7F</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27D8C2A2-48F1-22E2-F4F3-F795A234EB39" referredColumn="DCFB5D5D-AC6A-166B-9CB0-AF3A8EBE2020"/>
+</associations>
+</Column>
+<Column name="ATIVIDADE_cd_atividade" id="48B21857-98F5-CBE3-33EC-480C9D30FB7B">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>E6D29A6E-A046-BB1B-ECDD-C0606ED8D306</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="285F0733-2A62-2203-A96E-8891CA27F508" referredColumn="5D7E9C9B-4145-9F00-F768-0C064FA15333"/>
+</associations>
+</Column>
+<Column name="ic_presenca" id="B92B4066-E5F0-77E7-AAAC-8CAD1D6BF33D">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>889EFF09-FE6F-9D81-BBFA-5BF0067AD98A</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD75B54C-3222-CBEC-945A-A311C9D87B42" name="CRIANCA_ATIVIDADE_PK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>A40D9B2B-5CE1-0005-79D5-A329C9219ACB</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1757AFE8-0025-1402-A48C-E61305BF8BE0"/>
+<colUsage columnID="48B21857-98F5-CBE3-33EC-480C9D30FB7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="321189ED-A3DE-C3CF-455E-61939EF26C7E" name="CRIANCA_ATIVIDADE_ATIVIDADE_FK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>6BEF2B9F-D947-54E8-7516-53F39B6B3C15</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48B21857-98F5-CBE3-33EC-480C9D30FB7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41202373-D0BE-0B2E-E881-A229DA2E0574" name="CRIANCA_ATIVIDADE_CRIANCA_FK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>C789FFF7-411E-235D-BC85-1C2AEED16121</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1757AFE8-0025-1402-A48C-E61305BF8BE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

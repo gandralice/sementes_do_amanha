@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sementes_do_amanha" id="32755A2B-58F8-CF4F-8AEB-0324C9DCCF45" version="3.5">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-04 23:58:16 UTC</createdTime>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>32755A2B-58F8-CF4F-8AEB-0324C9DCCF45</designId>
+</OSDM_Design>

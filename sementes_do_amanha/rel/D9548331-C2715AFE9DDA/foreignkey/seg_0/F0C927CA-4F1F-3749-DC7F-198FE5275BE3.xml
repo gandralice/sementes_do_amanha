@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0C927CA-4F1F-3749-DC7F-198FE5275BE3" containerWithKeyObject="25E473C3-1034-8D4B-2B0E-578956863633" localFKIndex="6F839426-DD3C-A083-05CC-3D594D520C6E" name="ATIVIDADE_VOLUNTARIO_FK">
+<createdBy>gandr</createdBy>
+<createdTime>2025-12-05 00:35:07 UTC</createdTime>
+<generatorID>F73E4E9D-722A-A553-0EFF-FB3985AB7E5A</generatorID>
+<ownerDesignName>sementes_do_amanha</ownerDesignName>
+<referredTableLongName>VOLUNTARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F9511D5B-B761-BB07-9FF5-AF2DD6AD7F62</referredTableID>
+<keyObject>C904DC6C-807B-8A0D-5ED6-672BAC0236E5</keyObject>
+<referredKeyID>C904DC6C-807B-8A0D-5ED6-672BAC0236E5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_voluntario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
